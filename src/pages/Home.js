@@ -38,7 +38,7 @@ const Home = () => {
     </section>
     <section className="py-5">
         <div className='container'>
-        <h2 className='text-center mb-4'>Most loved cakes ThIss Months
+        <h2 className='text-center mb-4'>Most loved cakes Thiss Months
           <span className='badge bg-danger ms-2'>Top Picks</span>
         </h2>
         <div className='row mt-4'>
