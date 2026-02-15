@@ -7,8 +7,8 @@ const OrderDetails = () => {
 
     const userId = localStorage.getItem("userId");
         const [orderItems, setOrderItems] = useState([]);
-        const [orderAddress, setOrderAddress] = useState(null);
-        const [Total,setTotal] = useState(0);
+        const [ setOrderAddress] = useState(null);
+        const [setTotal] = useState(0);
         const navigate = useNavigate();
     
         const { order_number}= useParams();
