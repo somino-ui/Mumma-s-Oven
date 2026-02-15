@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import PublicLayout from './PublicLayout';
 import { useNavigate } from "react-router-dom";
@@ -112,7 +112,7 @@ const Login = () => {
 
             <div className='col-md-6 d-flex align-items-center justify-content-center bg-light rounded'> 
                 <div classname="text-center">
-                    <img src="/images/login.png"  className='img-fluid rounded-3 w-75' ></img>
+                    <img src="/images/login.png" alt="#" className='img-fluid rounded-3 w-75' ></img>
                     </div> 
             </div>
 

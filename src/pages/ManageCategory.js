@@ -1,4 +1,4 @@
-import React,{useState,useEffect, use} from "react";
+import React,{useState,useEffect} from "react";
 import AdminLayout from "../components/Adminlayout";
 import { Link } from "react-router-dom";
 import {CSVLink} from 'react-csv';
@@ -25,7 +25,7 @@ const ManageCategory = () => {
      }
      else{
 
-     const filtered = allcategories.filter((c)=>c.category_name.toLowerCase() .includes(keyword))
+     const filtered = allcategories.filter((c)=>c.category_name.toLowerCase().includes(keyword))
       setCategories(filtered);
          }
     }

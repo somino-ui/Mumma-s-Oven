@@ -47,7 +47,7 @@ const OrderDetails = () => {
                     <div key={index} className="card mb-3 shadow-sm border-0">
                          <div className="row"> 
                     <div className=" col-md-4">  
-                         <img src={`http://127.0.0.1:8000${item.cake.image}`} 
+                         <img src={`http://127.0.0.1:8000${item.cake.image}`} alt="#"
                                                 className="img-fluid rounded-start" style={{minHeight:'150px' ,height:'250px',width:'100%'}}/>
                     </div>
                      <div className=" col-md-8">  

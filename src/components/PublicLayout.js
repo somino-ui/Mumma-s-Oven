@@ -1,4 +1,4 @@
-import React ,{use, useEffect,useState}from 'react'
+import React ,{ useEffect,useState}from 'react'
 import { FaCogs, FaHeart, FaHome, FaShoppingCart, FaSignInAlt, FaSignOutAlt, FaUser, FaUserCircle, FaUserPlus, FaUserShield, FaUtensils } from 'react-icons/fa'
 import { Link ,useNavigate} from 'react-router-dom'
 import '../styles/layout.css'
@@ -9,12 +9,12 @@ const PublicLayout = ({children}) => {
 
   const navigate = useNavigate();
   const userId = localStorage.getItem('userId');
-  const name = localStorage.getItem('userName');
+  // const name = localStorage.getItem('userName');
 
   useEffect(( ) => {
     if (userId) {
       setIsLoggedIn(true);
-      setUserName(name);
+      // setUserName(name);
     }
  } ,[userId]);
   

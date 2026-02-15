@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PublicLayout from "../components/PublicLayout";
 import { toast, ToastContainer } from "react-toastify";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css'
 import { FaMinus, FaPlus, FaShoppingCart, FaTrash } from "react-icons/fa";
 
@@ -111,7 +111,7 @@ const Cart = () => {
                             <div className="card shadow-sm">
                                 <div className="row">
                                 <div className="col-md-4">
-                                        <img src={`http://127.0.0.1:8000${item.cake.image}`} 
+                                        <img src={`http://127.0.0.1:8000${item.cake.image}`} alt="#"
                                                 className="img-fluid rounded-start" style={{minHeight:'200px' }}/>
                                                 </div>
 

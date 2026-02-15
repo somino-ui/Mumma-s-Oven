@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import PublicLayout from './PublicLayout';
 import { useNavigate } from "react-router-dom";
@@ -164,7 +164,7 @@ const handleSubmit = async (e) => {
 
             <div className='col-md-6 d-flex align-items-center justify-content-center bg-light rounded'> 
                 <div classname="p-4 text-center">
-                    <img src="/images/register.jpg"  className='img-fluid' style={{maxheight:"300px"}}></img>
+                    <img src="/images/register.jpg" alt="#" className='img-fluid' style={{maxheight:"300px"}}></img>
                     <h5 className='mt-3 text-center' >Registration is  Fast Secure and Free </h5>
                     <p className='text-mutet small text-center'> Join our family and enjoy delicious cake Delivered to your door</p>
                     </div> 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PublicLayout from "../components/PublicLayout";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaBoxOpen, FaInfoCircle, FaMapMarkedAlt } from "react-icons/fa";
 
 
