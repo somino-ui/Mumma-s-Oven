@@ -1,0 +1,37 @@
+.icon-fix{
+    position: relative; top:-2px
+}
+
+.sidebar{
+    width: 250px;
+    min-height: 100vh;
+    
+    top:0;
+    left:0;
+    
+
+}
+.sidebar .list-group-item{
+    background-color: #121212 !important;
+    color: white !important;
+    border:none;
+    border-bottom:1px solid #2c2c2c !important;
+}
+
+.list-group-item:hover{
+    background-color: #1a1a1a !important;
+    color:rgb(226, 20, 20) !important;
+}
+
+#page-content-wrapper.with-sidebar{
+    margin-left: 250px;
+    transition:margin-left 0.3s ease;
+    
+    
+}
+#page-content-wrapper.full-width{
+    margin-left: 0px;
+    transition:margin-left 0.3s ease;
+    
+    
+}

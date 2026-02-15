@@ -1,0 +1,35 @@
+.register-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-image-container {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+}
+
+.register-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Glass overlay form */
+.form-overlay {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  padding: 40px;
+  border-radius: 15px;
+
+  background:transparent;
+  backdrop-filter: blur(px);
+
+  z-index: 2;
+}
